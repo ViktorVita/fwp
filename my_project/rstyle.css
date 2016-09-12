@@ -1,0 +1,151 @@
+/* 
+Registration
+*/
+body {
+	width: 1200px;
+	height: auto;
+	margin: 20px auto;
+	background: #660022;
+}
+
+#div0 {
+	padding-right: 30px;
+	width: 1170px;
+	height: 20px;
+	
+}
+
+#tab2 {
+	position: relative;
+	float: right;
+}
+
+#tab1 {
+	position: relative;
+	float: left;
+}
+
+.reghead {
+	height: 96px;
+	background: #660022;
+	width: 1170px;
+	padding-right: 30px;
+	text-align: center;
+	border: none;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: Tahoma;
+	font-weight: 600;
+	text-shadow: 0 1px 0 #ccc,
+					0 2px 0 #c9c9c9,
+					0 3px 0 #bbb,
+					0 4px 0 #b9b9b9,
+					0 5px 0 #aaa,
+					0 6px 1px rgba(0,0,0,.1),
+					0 0 5px rgba(0,0,0,.1),
+					0 1px 3px rgba(0,0,0,.3),
+					0 3px 5px rgba(0,0,0,.2),
+					0 5px 10px rgba(0,0,0,.25),
+					0 10px 10px rgba(0,0,0,.2),
+					0 20px 20px rgba(0,0,0,.15);
+	
+}
+
+.reghead img {
+	float: left;
+}
+
+.row {
+	background: none;
+	display: table;
+	width: 600px;
+	padding-right: 30px;
+	
+}
+
+.row input {
+	background: #aa4433;
+	width: 16em;
+	float: left;
+	border: 2px solid #772211;
+	border-radius: 4px;
+	color: #cc6666;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.row input:focus {
+	border: 3px solid #bb7700;
+	outline:none;
+}
+
+.descrip {
+	margin-top: 20px;
+	color: #cc6666;
+	text-align: center;
+	
+}
+
+}
+
+.t1 {
+	width: 1170px;
+	padding-right: 30px;
+	background: ;
+	border: none;
+	
+}
+
+#qblock {
+	width: 600px;
+	border: 2px solid #772211;
+}
+
+.layoutBoxContent {
+	color: #cc6666;
+	font-weight: bold;
+}
+
+#regrow {
+	display: table-cell;
+	width: 600px;
+	height: auto;
+	position: relative;
+	padding: 20px;
+	float: left;
+	background: none;
+	
+	
+}
+
+#regrow p {
+	color: #cc6666;
+	font-weight: bold;
+}
+
+#regrow input {
+	background: #aa4433;
+	width: 30em;
+	float: right;
+	border: 2px solid #772211;
+	border-radius: 4px;
+	color: #cc6666;
+	
+}
+#regrow input:focus {
+	border: 3px solid #bb7700;
+	outline:none;
+}
+
+footer {
+	text-align: center;
+	font-size: small;
+	margin-top: 150px;
+}
+
+#supmes {
+	width: 400px;
+	height: 300px;
+}
+/*  register */

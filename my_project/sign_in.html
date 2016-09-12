@@ -1,0 +1,77 @@
+<!DOCTYPE html>	
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="rstyle.css" />
+		<meta charset="utf-8">
+		<title>
+			Sign in
+		</title>
+		<script type="text/javascript">
+	function give() {
+	var row = document.getElementsByTagName('h1');
+	alert(row);
+	};
+</script>
+	</head>
+
+	
+	<body>
+	
+		<div id=div0>
+			<table id="tab1">
+				<tr>
+					<td>
+						<a href="test.html"><img src="images/home.png" /></a>
+					</td>
+				</tr>
+			</table>
+			<table id="tab2">
+				<tr>
+					<td>
+						<a href="sign_in.html"><img src="images/gb.png" /></a>
+					</td>
+					<td>
+						<a href="sign_in_ru.html"><img src="images/ru.png" /></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div>
+		<div class="reghead">
+			<img src="images/logo.gif" /><h1>Sign in</h1>
+			
+		</div>
+	
+		<div>
+			<div class="layoutBoxContent">
+				<form method="POST" class="t1" id="create_account" action="server/sign.php">    
+					<fieldset id="qblock">
+						<div id="regrow">
+							<p>Account name:<input type="text" name="accountName" placeholder="Input your account name, must be at least 5 characters long" required pattern=".{5,}" tabindex="1" value=""></p>							
+							<p>Email:<input type="text" name="accountName" placeholder="Input your email address" tabindex="2" value=""></p>
+							
+							<p>Password:<input type="password" name="accountName" placeholder="Input password" tabindex="3" value=""></p>
+							
+							<p>Confirm your password:<input type="password" name="accountName" placeholder="Type your password in again" tabindex="3" value=""></p>
+						</div>        
+					</fieldset>
+				  
+					<div class="row">
+						<div class="descrip">Obey and follow for Evil Rainbow Octopus!
+						</div>
+					</div>
+					<div class="row">
+						<div>
+							<input type="submit" name="submit" tabindex="4" value="Create account">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			September, 2016<br> Evil Rainbow Octopus Association. <br> All right reserved. &copy
+		</footer>
+	</body>
+	
+</html>
